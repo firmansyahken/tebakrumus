@@ -1,0 +1,34 @@
+{
+    "quests": [
+        {
+            "quest": "Rumus Mencari Luas",
+            "answer": ["p x l", "t x p", "p x p", "l x l"],
+            "correct": "p x l",
+            "image": "images/1.png"
+        },
+        {
+            "quest": "Rumus Mencari Luas",
+            "answer": ["a x t", "1/2 x a x 2", "1/2 x a x t", "a x t"],
+            "correct": "1/2 x a x t",
+            "image": "images/2.png"
+        },
+        {
+            "quest": "Rumus Mencari Luas",
+            "answer": ["p x l", "s x s", "p + l", "s + s"],
+            "correct": "s x s",
+            "image": "images/3.png"
+        },
+        {
+            "quest": "Rumus Mencari Luas",
+            "answer": ["1/2 x d1 x d2", "1/2 x d1 + d2", "1/2 x d1 x t", "d1 x d2 x t"],
+            "correct": "1/2 x d1 x d2",
+            "image": "images/4.png"
+        },
+        {
+            "quest": "Rumus Mencari Luas",
+            "answer": ["r x r x d", "3,14 x r x r", "22/7 x d", "3,14 + r + r"],
+            "correct": "3,14 x r x r",
+            "image": "images/5.png"
+        }
+    ]
+}

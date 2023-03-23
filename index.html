@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tebak Rumus Ruang Datar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="preloader">
+        <div class="container">
+            <img src="images/logo.png" alt="logo">
+            <button onclick="Play()">Mainkan!</button>
+        </div>
+    </div>
+
+    <div class="game_over">
+        <h2>Hasil Skor</h2>
+        <h1 id="score"></h1>
+        <div class="menu">
+            <button onclick="window.location.reload()">Main Lagi</button>
+            <button id="exit">Keluar</button>
+        </div>    
+    </div>
+
+    <div class="wrapper">
+      <div class="header">
+        <div class="timer">
+          <div class="time_value"></div>
+        </div>
+      </div>
+      <div class="quest">
+        
+      </div>
+      <div class="answer">
+        
+      </div>
+    </div>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
